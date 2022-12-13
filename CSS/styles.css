@@ -1,4 +1,92 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans Arabic', sans-serif;
+
+}
+
 .main-page{
+    height: 80px;
     display: flex;
-    flex-direction: row-reverse ;
+    flex-direction: row-reverse;
+    background-color: rgb(72,72,72);
+    gap: 300px;
+    color: aliceblue;
+    padding: 10px 30px;
+
+}
+
+.box-1 h1{
+    margin-right: 60px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    color: #FFFF00		;
+}
+    
+
+.box-2{
+    display: flex;
+    gap: 40px;
+    font-size: 13px;
+}
+
+
+
+
+
+.gate::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 1, 0.493);
+    top: 0;
+    left: 0;
+    opacity: 1;
+}
+.gate {
+    text-align: center;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    /* background: linear-gradient(rgb(0,0,0.55) rgb(0,0,0.55) rgb(0,0,0.55)) ,url("/CSS/imgs/herobackground.jpg"); */
+    background-image:url("./imgs/herobackground.jpg");
+    background: size 100%;;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-position: center; */
+}
+
+
+.gate h1{
+    color: #FFFF00;
+    position: relative;
+    margin-top: 0px;
+    padding-top: 80px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    z-index: 99;
+}
+
+.gate p{
+    padding: 0px 300px;
+    margin-top: 0px;
+    position: relative;
+    color: white;
+    font-size: 20px;
+    z-index: 99;
+} 
+
+.gate h2{
+    position: relative;
+    text-align: center;
+    border: #FFFF00 solid;
+    border-radius: 10px;
+    width: 200px;
+    margin-left: 580px;
+    color: white;
+    
+
 }
