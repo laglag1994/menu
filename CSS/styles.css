@@ -130,3 +130,205 @@ body {
     border-radius: 5px;
     padding: 0.25rem;
 }
+
+
+
+.prices::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 1, 0.493);
+    top: 0;
+    left: 0;
+    opacity: 1;
+}
+.prices {
+    text-align: center;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    /* background: linear-gradient(rgb(0,0,0.55) rgb(0,0,0.55) rgb(0,0,0.55)) ,url("/CSS/imgs/herobackground.jpg"); */
+    background-image:url("./imgs/herobackground2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-position: center; */
+}
+
+
+.prices h1{
+    color: #ffd000;
+    position: relative;
+    margin-top: 0px;
+    padding-top: 80px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    z-index: 99;
+}
+
+.prices p{
+    padding: 0px 300px;
+    margin-top: 0px;
+    position: relative;
+    color: white;
+    font-size: 20px;
+    z-index: 99;
+} 
+
+.prices h2{
+    position: relative;
+    text-align: center;
+    border: #ffd000 solid;
+    border-radius: 10px;
+    width: 200px;
+    margin-left: 580px;
+    color: white;
+    display: block;
+
+}
+
+.main-menu{
+    background-color: #e8eaec;
+    padding-top: 50px;
+}
+
+.menu-1{
+    display: flex;
+    gap: 50px;
+    margin: 20px;
+    margin-top: 0px;
+    justify-content: space-between;
+}
+
+.appe{
+    flex: 1;
+    
+}
+
+
+
+.salad{
+    flex: 1;
+    
+}
+
+.appe h1{
+    color: #ffd000;
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.appe h2{
+    text-align: right;
+    margin: 0;
+    font-size:large;
+    font-weight: bold;
+    height: 5px;
+    
+}
+
+.appe p{
+    margin: 0;
+    font-weight: bold;
+
+}
+
+
+.salad h1{
+    color: #ffd000;
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.salad h2{
+    text-align: right;
+    margin: 0;
+    font-size:large;
+    font-weight: bold;
+    height: 5px;
+}
+
+.salad p{
+    margin: 0;
+    font-weight: bold;
+
+}
+
+
+
+.menu-2{
+    display: flex;
+    gap: 50px;
+    margin: 20px;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.shawrma-1{
+    flex: 1;
+    
+}
+
+
+
+.shawrma-2{
+    flex: 1;
+}
+
+
+.shawrma-1 h1{
+    color: #ffd000;
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.shawrma-1 h2{
+    text-align: right;
+    margin: 0;
+    font-size:large;
+    font-weight: bold;
+    height: 5px;
+}
+
+.shawrma-1 p{
+    margin: 0;
+    font-weight: bold;
+
+}
+
+
+.shawrma-2 h1{
+    color: #ffd000;
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.shawrma-2 h2{
+    text-align: right;
+    margin: 0;
+    font-size:large;
+    font-weight: bold;
+    height: 5px;
+    
+}
+
+.shawrma-2 p{
+    margin: 0;
+    font-weight: bold;
+
+}
+
+
