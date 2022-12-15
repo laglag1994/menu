@@ -29,7 +29,8 @@ body {
     margin-right: 60px;
     margin-bottom: 30px;
     margin-top: 0px;
-    color: #ffd000		;
+    color: #ffd000	;
+    
 }
     
 
@@ -37,8 +38,9 @@ body {
     display: flex;
     gap: 40px;
     font-size: 13px;
-}
+    /* transition: all 0.5s; */
 
+}
 
 
 
@@ -94,6 +96,7 @@ body {
     width: 200px;
     margin-left: 580px;
     color: white;
+    transition: all 0.5s;
     
 }
  
@@ -108,6 +111,32 @@ body {
 a{
     color: white;
     text-decoration: none   ;
+
+}
+
+
+
+
+
+.box-2 h2:hover {
+    background-color:  rgb(54, 54, 54);
+    /* display: inline-block; */
+      cursor: pointer;
+  }
+
+
+
+
+
+
+.box-1 a{
+    text-decoration: none ;
+    color:  #ffd000;
+}
+
+.box-1 a:hover{
+    background-color:  rgb(54, 54, 54);
+    transform: scale(1.5);
 
 }
 
@@ -207,6 +236,8 @@ a{
     margin-left: 580px;
     color: white;
     display: block;
+    transition: all 0.5s;
+
 
 }
 .prices h2:hover {
