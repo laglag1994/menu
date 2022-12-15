@@ -87,6 +87,19 @@ body {
     width: 200px;
     margin-left: 580px;
     color: white;
+    
+}
+ 
+.order:hover {
+    border-bottom: 1px solid;
+    background: #ffd000;
+    text-decoration: none   ;
+
+}
+
+a{
+    color: white;
+
 }
 
 .about-us{
@@ -331,4 +344,77 @@ body {
 
 }
 
+.loca{
+    color: #ffd000;
+    font-size: 20px;
+    text-align: center;
 
+
+}
+
+.location{
+    display: flex;
+}
+
+.map{
+    flex: 1;
+    margin-left: 100px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 0.25rem;
+    /* width: 600px; */
+}
+
+.location-info{
+    flex: 1;
+    margin-top: 100px;
+}
+
+.location-info p{
+    text-align: center;
+    font-size:large;
+    font-weight: bold;
+    padding-top: 20px;
+    line-height: 10px;
+}
+
+
+.footer{
+    display: flex;
+    background-color: rgb(72,72,72);
+    gap: 200px;
+    justify-content: center;
+    line-height: 30px;
+    /* text-align: center; */
+
+}
+
+.footer h1{
+    color: #ffd000;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.footer p{
+    color: white;
+
+}
+
+.links h1{
+    color: white;
+}
+
+.links{
+    color: white;
+
+}
+
+.cr{
+    background-color: rgb(72,72,72);
+    color: white;
+}
+
+.cr p{
+    margin: 0px;
+    padding-left: 140px;
+}
